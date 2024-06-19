@@ -1,0 +1,25 @@
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(51, 130, 194, 0.63);
+}
+
+tfoot tr:first-child {
+    background-color: rgba(51, 130, 194, 0.63);
+}
+
+tbody tr:nth-child(2n + 1) {
+    background-color: rgba(152, 166, 179, 0.63);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgba(207, 108, 211, 0.63);
+}
